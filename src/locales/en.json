@@ -1,0 +1,181 @@
+{
+  "common": {
+    "close": "Close",
+    "save": "Save",
+    "error": "Error",
+    "loading": "Loading…",
+    "signInError": "Sign-in error",
+    "secureLogin": "Secure sign-in"
+  },
+  "settings": {
+    "compactView": "Compact List Mode",
+    "compactViewHint": "Saves data by hiding thumbnails",
+    "grid": "Grid",
+    "compact": "Compact"
+  },
+  "nav": {
+    "home": "Home",
+    "search": "Search",
+    "alerts": "Alerts",
+    "profile": "Profile",
+    "add": "Add",
+    "addDocument": "Add document"
+  },
+  "categories": {
+    "famille": "Family",
+    "identite": "Identity",
+    "sante": "Health",
+    "ecole": "Education",
+    "business": "Business",
+    "maison": "Housing",
+    "vehicule": "Vehicle",
+    "custom": "Document",
+    "aClassifier": "To classify"
+  },
+  "signIn": {
+    "trustBadge": "Your documents, always at hand",
+    "appName": "TrouveDoc",
+    "tagline": "Find your documents instantly.",
+    "documentsFound": "{{count}} document found",
+    "documentsFound_other": "{{count}} documents found",
+    "continueGoogle": "Continue with Google",
+    "continueApple": "Continue with Apple",
+    "connecting": "Signing in…"
+  },
+  "home": {
+    "searchPlaceholder": "Search for a document…",
+    "refresh": "Refresh"
+  },
+  "search": {
+    "title": "Search",
+    "placeholder": "Name, date, number…",
+    "resultsCount": "{{count}} result found",
+    "resultsCount_other": "{{count}} results found",
+    "hint": "Smart search: by title, category, summary and keywords.",
+    "aiBoost": "AI Boost",
+    "aiBoostLoading": "Expanding…",
+    "aiSuggestions": "AI suggestions",
+    "searchButton": "Search",
+    "clearAiResults": "Clear AI Results"
+  },
+  "alerts": {
+    "title": "Alerts",
+    "none": "No alerts at the moment.",
+    "expiringCount": "{{count}} document(s) expiring in the next 60 days"
+  },
+  "profile": {
+    "title": "Profile",
+    "settings": "Settings",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "signOut": "Sign out",
+    "installApp": "Install app",
+    "user": "User",
+    "language": "Language",
+    "english": "English",
+    "french": "Français",
+    "arabic": "العربية",
+    "termsTitle": "Terms of Use (\"Transparence AI\" Version)",
+    "terms1Title": "1. Data Ownership",
+    "terms1Body": "You remain the sole owner of your documents. The app is an intelligent search tool designed to help you find your files, not to exploit them.",
+    "terms2Title": "2. Security and Anonymisation (Redaction)",
+    "terms2Body": "Before any processing, your sensitive data (ID numbers, bank details) is automatically detected and masked by our privacy protection protocol.",
+    "terms3Title": "3. Why We Use Google Gemini",
+    "terms3Body": "We chose Google Gemini to power our search engine because Google offers greater transparency and strict commitments on data ethics.\n\nSearch expansion: Gemini only analyses titles and categories to understand your intent (e.g. \"My trips\").\n\nPrivacy: Your personal data is never used to train Google's public AI models.",
+    "terms4Title": "4. Mobile Data Savings",
+    "terms4Body": "To respect your mobile data allowance, we offer a Compact List Mode that stops images from loading and uses only text metadata for browsing.",
+    "terms5Title": "5. Secure Servers",
+    "terms5Body": "Your documents are encrypted and stored on secure cloud servers, so only you can access them, even if you change phones."
+  },
+  "upload": {
+    "addDocument": "Add a document",
+    "images": "Images",
+    "pdfs": "PDFs",
+    "cancel": "Cancel",
+    "saveImages": "Save {{count}} image(s)",
+    "linkAsOne": "Combine into a single document",
+    "remove": "Remove",
+    "addImage": "Add image",
+    "back": "Back",
+    "saveButton": "Save",
+    "preparing": "Preparing…",
+    "savingToVault": "Saving to vault…",
+    "savingPdf": "Saving PDF {{current}}/{{total}}…",
+    "savingCount": "Saving {{current}}/{{total}}…",
+    "sendingFiles": "Uploading {{count}} files…",
+    "assembling": "Assembling pages…",
+    "errorTitle": "Error",
+    "retry": "Retry",
+    "close": "Close",
+    "uploadFailed": "Upload failed"
+  },
+  "documentDetail": {
+    "back": "Back",
+    "page": "Page {{current}} / {{total}}",
+    "document": "Document",
+    "loadError": "Unable to load document",
+    "loading": "Loading…",
+    "preview": "Preview",
+    "date": "Date",
+    "reference": "Reference",
+    "expiryDateIso": "Expiry date (ISO)",
+    "parties": "Parties (comma-separated)",
+    "amounts": "Amounts (comma-separated)",
+    "category": "Category",
+    "placeholderCategory": "e.g. To classify",
+    "datePlaceholder": "e.g. 15/01/2024",
+    "referencePlaceholder": "Doc number, NINEA…",
+    "partiesPlaceholder": "Person 1, Person 2",
+    "amountsPlaceholder": "10,000 FCFA, 500 €",
+    "expirySoon": "Expiring soon",
+    "savedOffline": "Saved. Will sync when back online.",
+    "metadata": "Metadata",
+    "searchTags": "Search tags",
+    "searchTagsPlaceholder": "Add personal search tags (e.g., AC Repair)",
+    "download": "Download",
+    "downloading": "Downloading…",
+    "composeSharePdf": "Compose & Share PDF",
+    "share": "Share",
+    "shareCurrentPage": "Current page",
+    "shareMultiPageHint": "Share sends the current page only. Use Compose & Share PDF to share all pages.",
+    "fileActions": "File",
+    "sharing": "Preparing…",
+    "sharePreparing": "Preparing share…",
+    "delete": "Delete",
+    "deleting": "Deleting…",
+    "shareFallback": "Direct share is not available here. Download the document with the button below, then share it from your gallery or files (e.g. to WhatsApp).",
+    "confirmDelete": "Delete this document permanently?",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "offlineBanner": {
+    "message": "You are offline. Changes will sync when you reconnect.",
+    "close": "Close"
+  },
+  "installBanner": {
+    "title": "Install Coffre",
+    "subtitle": "Add the app to your home screen",
+    "install": "Install",
+    "close": "Close",
+    "ariaLabel": "Install app"
+  },
+  "authGate": {
+    "loading": "Loading…"
+  },
+  "vaultSummary": {
+    "documents": "documents",
+    "expiring": "Expiring",
+    "aClassifier": "To classify"
+  },
+  "vaultCard": {
+    "expireSoon": "Expiring soon",
+    "ready": "Ready"
+  },
+  "pills": {
+    "all": "All"
+  },
+  "sidebar": {
+    "logo": "Coffre"
+  }
+}

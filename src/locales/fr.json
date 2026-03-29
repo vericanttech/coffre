@@ -1,0 +1,181 @@
+{
+  "common": {
+    "close": "Fermer",
+    "save": "Enregistrer",
+    "error": "Erreur",
+    "loading": "Chargement…",
+    "signInError": "Erreur de connexion",
+    "secureLogin": "Connexion sécurisée"
+  },
+  "settings": {
+    "compactView": "Mode Liste Compacte",
+    "compactViewHint": "Économise les données en masquant les miniatures",
+    "grid": "Grille",
+    "compact": "Compact"
+  },
+  "nav": {
+    "home": "Accueil",
+    "search": "Chercher",
+    "alerts": "Alertes",
+    "profile": "Profil",
+    "add": "Ajouter",
+    "addDocument": "Ajouter un document"
+  },
+  "categories": {
+    "famille": "Famille",
+    "identite": "Identité",
+    "sante": "Santé",
+    "ecole": "École",
+    "business": "Business",
+    "maison": "Maison",
+    "vehicule": "Véhicule",
+    "custom": "Document",
+    "aClassifier": "À classifier"
+  },
+  "signIn": {
+    "trustBadge": "Vos documents, toujours à portée",
+    "appName": "TrouveDoc",
+    "tagline": "Trouvez vos documents instantanément.",
+    "documentsFound": "{{count}} document trouvé",
+    "documentsFound_other": "{{count}} documents trouvés",
+    "continueGoogle": "Continuer avec Google",
+    "continueApple": "Continuer avec Apple",
+    "connecting": "Connexion…"
+  },
+  "home": {
+    "searchPlaceholder": "Chercher un document…",
+    "refresh": "Actualiser"
+  },
+  "search": {
+    "title": "Rechercher",
+    "placeholder": "Nom, date, numéro…",
+    "resultsCount": "{{count}} résultat trouvé",
+    "resultsCount_other": "{{count}} résultats trouvés",
+    "hint": "Recherche intelligente : par titre, catégorie, résumé et mots-clés.",
+    "aiBoost": "Boost IA",
+    "aiBoostLoading": "Extension…",
+    "aiSuggestions": "Suggestions IA",
+    "searchButton": "Rechercher",
+    "clearAiResults": "Effacer les résultats IA"
+  },
+  "alerts": {
+    "title": "Alertes",
+    "none": "Aucune alerte pour le moment.",
+    "expiringCount": "{{count}} document(s) expire(nt) dans les 60 prochains jours"
+  },
+  "profile": {
+    "title": "Profil",
+    "settings": "Paramètres",
+    "theme": "Thème",
+    "light": "Clair",
+    "dark": "Sombre",
+    "signOut": "Déconnexion",
+    "installApp": "Installer l'application",
+    "user": "Utilisateur",
+    "language": "Langue",
+    "english": "English",
+    "french": "Français",
+    "arabic": "العربية",
+    "termsTitle": "Conditions d'Utilisation (Version \"Transparence AI\")",
+    "terms1Title": "1. Propriété des Données",
+    "terms1Body": "Vous restez le seul propriétaire de vos documents. L'application est un outil de recherche intelligente conçu pour vous aider à retrouver vos fichiers, pas pour les exploiter.",
+    "terms2Title": "2. Sécurité et Anonymisation (Redaction)",
+    "terms2Body": "Avant tout traitement, vos données sensibles (numéros d'identité, coordonnées bancaires) sont automatiquement détectées et masquées par notre protocole de protection de la vie privée.",
+    "terms3Title": "3. Le Choix de Google Gemini",
+    "terms3Body": "Nous avons choisi Google Gemini pour alimenter notre moteur de recherche car Google offre une transparence supérieure et des garanties strictes en matière d'éthique des données.\n\nExpansion de Recherche : Gemini analyse uniquement les titres et catégories pour comprendre vos intentions (ex: \"Mes voyages\").\n\nConfidentialité : Vos données personnelles ne sont jamais utilisées pour entraîner les modèles d'IA publics de Google.",
+    "terms4Title": "4. Optimisation des Données Mobiles",
+    "terms4Body": "Pour respecter vos forfaits mobiles, nous proposons un Mode Liste Compacte qui bloque le téléchargement des images et utilise uniquement les métadonnées textuelles pour la navigation.",
+    "terms5Title": "5. Serveurs Sécurisés",
+    "terms5Body": "Vos documents sont chiffrés et stockés sur des serveurs cloud sécurisés, garantissant que vous seul pouvez y accéder, même en cas de changement de téléphone."
+  },
+  "upload": {
+    "addDocument": "Ajouter un document",
+    "images": "Images",
+    "pdfs": "PDFs",
+    "cancel": "Annuler",
+    "saveImages": "Enregistrer {{count}} image(s)",
+    "linkAsOne": "Lier en un seul document",
+    "remove": "Supprimer",
+    "addImage": "Ajouter une image",
+    "back": "Retour",
+    "saveButton": "Enregistrer",
+    "preparing": "Préparation…",
+    "savingToVault": "Enregistrement dans le coffre…",
+    "savingPdf": "Enregistrement PDF {{current}}/{{total}}…",
+    "savingCount": "Enregistrement {{current}}/{{total}}…",
+    "sendingFiles": "Envoi de {{count}} fichiers…",
+    "assembling": "Assemblage des pages…",
+    "errorTitle": "Erreur",
+    "retry": "Réessayer",
+    "close": "Fermer",
+    "uploadFailed": "Échec enregistrement"
+  },
+  "documentDetail": {
+    "back": "Retour",
+    "page": "Page {{current}} / {{total}}",
+    "document": "Document",
+    "loadError": "Impossible de charger le document",
+    "loading": "Chargement…",
+    "preview": "Aperçu",
+    "date": "Date",
+    "reference": "Référence",
+    "expiryDateIso": "Date d'expiration (ISO)",
+    "parties": "Parties (séparées par des virgules)",
+    "amounts": "Montants (séparés par des virgules)",
+    "category": "Catégorie",
+    "placeholderCategory": "Ex. À classifier",
+    "datePlaceholder": "Ex. 15/01/2024",
+    "referencePlaceholder": "N° document, NINEA…",
+    "partiesPlaceholder": "Personne 1, Personne 2",
+    "amountsPlaceholder": "10 000 FCFA, 500 €",
+    "expirySoon": "Expire bientôt",
+    "savedOffline": "Enregistré. Sera synchronisé à la reconnexion.",
+    "metadata": "Métadonnées",
+    "searchTags": "Mots-clés de recherche",
+    "searchTagsPlaceholder": "Ajouter des mots-clés personnels (ex. Réparation clim)",
+    "download": "Télécharger",
+    "downloading": "Téléchargement…",
+    "composeSharePdf": "Composer et partager en PDF",
+    "share": "Partager",
+    "shareCurrentPage": "Page actuelle",
+    "shareMultiPageHint": "Partager n'envoie que la page affichée. Utilisez Composer et partager en PDF pour partager toutes les pages.",
+    "fileActions": "Fichier",
+    "sharing": "Préparation…",
+    "sharePreparing": "Préparation du partage…",
+    "delete": "Supprimer",
+    "deleting": "Suppression…",
+    "shareFallback": "Le partage direct n'est pas disponible ici. Téléchargez le document avec le bouton ci-dessous, puis partagez-le depuis votre galerie ou vos fichiers (par ex. vers WhatsApp).",
+    "confirmDelete": "Supprimer ce document définitivement ?",
+    "previous": "Précédent",
+    "next": "Suivant"
+  },
+  "offlineBanner": {
+    "message": "Vous êtes hors ligne. Les modifications seront synchronisées à la reconnexion.",
+    "close": "Fermer"
+  },
+  "installBanner": {
+    "title": "Installer Coffre",
+    "subtitle": "Ajoutez l'app sur votre écran d'accueil",
+    "install": "Installer",
+    "close": "Fermer",
+    "ariaLabel": "Installer l'application"
+  },
+  "authGate": {
+    "loading": "Chargement…"
+  },
+  "vaultSummary": {
+    "documents": "documents",
+    "expiring": "Expirent",
+    "aClassifier": "À classifier"
+  },
+  "vaultCard": {
+    "expireSoon": "Expire bientôt",
+    "ready": "Prêt"
+  },
+  "pills": {
+    "all": "Tous"
+  },
+  "sidebar": {
+    "logo": "Coffre"
+  }
+}

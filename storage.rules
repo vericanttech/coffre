@@ -1,0 +1,14 @@
+rules_version = '2';
+// Storage security rules — TrouveDoc / Coffre
+// Paths: vault/{userId}/{docId}/thumb.jpg, original.jpg, original.pdf, page_*.jpg
+// Users may only read/write files under their own vault/{userId}/ folder.
+
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Vault: only the owner can read or write
+    match /vault/{userId}/{docId}/{allPaths=**} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+    // Deny all other paths (no match = deny)
+  }
+}

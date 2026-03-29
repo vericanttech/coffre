@@ -1,0 +1,181 @@
+{
+  "common": {
+    "close": "إغلاق",
+    "save": "حفظ",
+    "error": "خطأ",
+    "loading": "جاري التحميل…",
+    "signInError": "خطأ في تسجيل الدخول",
+    "secureLogin": "تسجيل دخول آمن"
+  },
+  "settings": {
+    "compactView": "وضع القائمة المدمجة",
+    "compactViewHint": "يوفر البيانات بإخفاء الصور المصغرة",
+    "grid": "شبكة",
+    "compact": "مدمج"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "search": "بحث",
+    "alerts": "التنبيهات",
+    "profile": "الملف الشخصي",
+    "add": "إضافة",
+    "addDocument": "إضافة مستند"
+  },
+  "categories": {
+    "famille": "العائلة",
+    "identite": "الهوية",
+    "sante": "الصحة",
+    "ecole": "التعليم",
+    "business": "الأعمال",
+    "maison": "السكن",
+    "vehicule": "المركبة",
+    "custom": "مستند",
+    "aClassifier": "للتصنيف"
+  },
+  "signIn": {
+    "trustBadge": "مستنداتك دائماً في متناول اليد",
+    "appName": "TrouveDoc",
+    "tagline": "اعثر على مستنداتك فوراً.",
+    "documentsFound": "مستند واحد",
+    "documentsFound_other": "{{count}} مستندات",
+    "continueGoogle": "المتابعة مع Google",
+    "continueApple": "المتابعة مع Apple",
+    "connecting": "جاري تسجيل الدخول…"
+  },
+  "home": {
+    "searchPlaceholder": "البحث عن مستند…",
+    "refresh": "تحديث"
+  },
+  "search": {
+    "title": "بحث",
+    "placeholder": "الاسم، التاريخ، الرقم…",
+    "resultsCount": "نتيجة واحدة",
+    "resultsCount_other": "{{count}} نتائج",
+    "hint": "بحث ذكي: حسب العنوان، الفئة، الملخص والكلمات المفتاحية.",
+    "aiBoost": "تعزيز الذكاء الاصطناعي",
+    "aiBoostLoading": "جاري التوسيع…",
+    "aiSuggestions": "اقتراحات الذكاء الاصطناعي",
+    "searchButton": "بحث",
+    "clearAiResults": "مسح نتائج الذكاء الاصطناعي"
+  },
+  "alerts": {
+    "title": "التنبيهات",
+    "none": "لا توجد تنبيهات في الوقت الحالي.",
+    "expiringCount": "{{count}} مستند تنتهي صلاحيته خلال 60 يوماً"
+  },
+  "profile": {
+    "title": "الملف الشخصي",
+    "settings": "الإعدادات",
+    "theme": "المظهر",
+    "light": "فاتح",
+    "dark": "داكن",
+    "signOut": "تسجيل الخروج",
+    "installApp": "تثبيت التطبيق",
+    "user": "مستخدم",
+    "language": "اللغة",
+    "english": "English",
+    "french": "Français",
+    "arabic": "العربية",
+    "termsTitle": "شروط الاستخدام (نسخة \"شفافية الذكاء الاصطناعي\")",
+    "terms1Title": "1. ملكية البيانات",
+    "terms1Body": "أنت المالك الوحيد لمستنداتك. التطبيق أداة بحث ذكية لمساعدتك في العثور على ملفاتك، وليس لاستغلالها.",
+    "terms2Title": "2. الأمان وإخفاء الهوية (التنقيح)",
+    "terms2Body": "قبل أي معالجة، يتم اكتشاف بياناتك الحساسة (أرقام الهوية، التفاصيل المصرفية) وإخفاؤها تلقائياً بواسطة بروتوكول حماية الخصوصية.",
+    "terms3Title": "3. اختيار Google Gemini",
+    "terms3Body": "اخترنا Google Gemini لتشغيل محرك البحث لأن Google تقدم شفافية أكبر وضمانات صارمة في أخلاقيات البيانات.\n\nتوسيع البحث: يحلل Gemini فقط العناوين والفئات لفهم نواياك (مثلاً \"رحلاتي\").\n\nالخصوصية: لا تُستخدم بياناتك الشخصية أبداً لتدريب نماذج الذكاء الاصطناعي العامة من Google.",
+    "terms4Title": "4. تحسين استهلاك البيانات على الجوال",
+    "terms4Body": "لاحترام باقات البيانات، نقدم وضع القائمة المدمجة الذي يمنع تحميل الصور ويستخدم فقط البيانات النصية للتنقل.",
+    "terms5Title": "5. خوادم آمنة",
+    "terms5Body": "مستنداتك مشفرة ومخزنة على خوادم سحابية آمنة، مما يضمن أنك وحدك من يمكنه الوصول إليها، حتى عند تغيير الهاتف."
+  },
+  "upload": {
+    "addDocument": "إضافة مستند",
+    "images": "صور",
+    "pdfs": "PDF",
+    "cancel": "إلغاء",
+    "saveImages": "حفظ {{count}} صورة",
+    "linkAsOne": "دمج في مستند واحد",
+    "remove": "إزالة",
+    "addImage": "إضافة صورة",
+    "back": "رجوع",
+    "saveButton": "حفظ",
+    "preparing": "جاري التحضير…",
+    "savingToVault": "جاري الحفظ في الخزنة…",
+    "savingPdf": "جاري حفظ PDF {{current}}/{{total}}…",
+    "savingCount": "جاري الحفظ {{current}}/{{total}}…",
+    "sendingFiles": "جاري رفع {{count}} ملفات…",
+    "assembling": "جاري تجميع الصفحات…",
+    "errorTitle": "خطأ",
+    "retry": "إعادة المحاولة",
+    "close": "إغلاق",
+    "uploadFailed": "فشل الرفع"
+  },
+  "documentDetail": {
+    "back": "رجوع",
+    "page": "صفحة {{current}} / {{total}}",
+    "document": "مستند",
+    "loadError": "تعذر تحميل المستند",
+    "loading": "جاري التحميل…",
+    "preview": "معاينة",
+    "date": "التاريخ",
+    "reference": "المرجع",
+    "expiryDateIso": "تاريخ الانتهاء (ISO)",
+    "parties": "الأطراف (مفصولة بفاصلة)",
+    "amounts": "المبالغ (مفصولة بفاصلة)",
+    "category": "الفئة",
+    "placeholderCategory": "مثال: للتصنيف",
+    "datePlaceholder": "مثال: 15/01/2024",
+    "referencePlaceholder": "رقم المستند، NINEA…",
+    "partiesPlaceholder": "شخص 1، شخص 2",
+    "amountsPlaceholder": "10000 فرنك، 500 يورو",
+    "expirySoon": "تنتهي قريباً",
+    "savedOffline": "تم الحفظ. سيتم المزامنة عند العودة للاتصال.",
+    "metadata": "البيانات الوصفية",
+    "searchTags": "وسوم البحث",
+    "searchTagsPlaceholder": "إضافة وسوم بحث شخصية (مثال: إصلاح مكيف)",
+    "download": "تحميل",
+    "downloading": "جاري التحميل…",
+    "composeSharePdf": "إنشاء ومشاركة PDF",
+    "share": "مشاركة",
+    "shareCurrentPage": "الصفحة الحالية",
+    "shareMultiPageHint": "المشاركة ترسل الصفحة الحالية فقط. استخدم إنشاء ومشاركة PDF لمشاركة كل الصفحات.",
+    "fileActions": "ملف",
+    "sharing": "جاري التحضير…",
+    "sharePreparing": "جاري تحضير المشاركة…",
+    "delete": "حذف",
+    "deleting": "جاري الحذف…",
+    "shareFallback": "المشاركة المباشرة غير متاحة هنا. حمّل المستند بالزر أدناه ثم شاركه من المعرض أو الملفات (مثلاً عبر واتساب).",
+    "confirmDelete": "حذف هذا المستند نهائياً؟",
+    "previous": "السابق",
+    "next": "التالي"
+  },
+  "offlineBanner": {
+    "message": "أنت غير متصل. سيتم مزامنة التغييرات عند إعادة الاتصال.",
+    "close": "إغلاق"
+  },
+  "installBanner": {
+    "title": "تثبيت Coffre",
+    "subtitle": "أضف التطبيق إلى الشاشة الرئيسية",
+    "install": "تثبيت",
+    "close": "إغلاق",
+    "ariaLabel": "تثبيت التطبيق"
+  },
+  "authGate": {
+    "loading": "جاري التحميل…"
+  },
+  "vaultSummary": {
+    "documents": "مستندات",
+    "expiring": "تنتهي قريباً",
+    "aClassifier": "للتصنيف"
+  },
+  "vaultCard": {
+    "expireSoon": "تنتهي قريباً",
+    "ready": "جاهز"
+  },
+  "pills": {
+    "all": "الكل"
+  },
+  "sidebar": {
+    "logo": "Coffre"
+  }
+}

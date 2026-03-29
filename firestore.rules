@@ -1,0 +1,19 @@
+rules_version = '2';
+// Firestore security rules — TrouveDoc / Coffre
+// Collection: vault_documents. Each document has a userId field; users may only access their own.
+// If you use the named database "coffre-ios", deploy with: firebase deploy --only firestore (default DB)
+// and deploy rules to the coffre-ios database from Firebase Console, or add a second firestore target in firebase.json.
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /vault_documents/{docId} {
+      // Read (get, list): only the document owner
+      allow read: if request.auth != null && resource.data.userId == request.auth.uid;
+      // Create: only if the new document's userId is the signed-in user
+      allow create: if request.auth != null && request.resource.data.userId == request.auth.uid;
+      // Update, delete: only the document owner
+      allow update, delete: if request.auth != null && resource.data.userId == request.auth.uid;
+    }
+    // Deny all other collections by default (no match = deny)
+  }
+}
